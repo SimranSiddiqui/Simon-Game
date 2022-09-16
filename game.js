@@ -21,7 +21,7 @@ function startOver()
 /* if we'll press wrong button it will call start over function */
 function checkAnswer(currentLevel)
 {
-   if(gamePattern[level-1]==userClickedPattern[currentLevel])
+   if(gamePattern[level-1]===userClickedPattern[currentLevel])
    {
     console.log("success");
     if(userClickedPattern.length === gamePattern.length)
